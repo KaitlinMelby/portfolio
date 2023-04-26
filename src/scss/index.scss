@@ -1,4 +1,32 @@
 body {
-    color: blue;
+    display: flex;
+    
+    
 }
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    
+    
+   
+
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue';
+    width: 100vw; 
+    
+   
+   
+}
