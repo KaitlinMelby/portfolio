@@ -1,23 +1,34 @@
 body {
   display: flex;
-}
-
-.logo {
+ }
+ 
+ 
+ .logo {
   display: flex;
   justify-content: space-between;
-}
-
-.container {
+  margin-right: 40vw;
+ }
+ 
+ 
+ .container {
   display: flex;
   justify-content: space-between;
-  width: 50vw;
-}
-
-.links {
+  width: 99vw
+ }
+ 
+ 
+ .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: "Bebas Neue";
+  font-size: large;
   width: 100vw;
-}
-
-/*# sourceMappingURL=index.css.map */
+  margin-top: .9vw
+  }
+ 
+ 
+ /*# sourceMappingURL=index.css.map */
+ 
+ 
+ 
+ 
