@@ -33,20 +33,20 @@ body {
     flex-direction: row;
     background-color: white;
     opacity: 80%;
-    width: 40vh;
+    width: 50vh;
     height: 30vh;
-    justify-content: center;
-    margin-left: 40%;
+    align-items: center;
+    margin-left: 39%;
     margin-top: 15%;
-    font-family: "Bebas Neue";
-    font-size: 70px;
+  
   }
 
 .extended {
   font-family: "Bebas Neue";
   font-size: 30px;
-  display: flex;
-  flex-direction: row;
+  margin: 25%;
+  text-align: center;
+  
 }
 
   .gwen {
@@ -55,9 +55,86 @@ body {
     height: 100vw;
     background-image: url(/images/kaitlin-melby-gwen-smaller.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 110vw;
+    flex-direction: column;
+    margin-left: -12px;
+    margin-right: -12px;
+    
+   
+   
+  }
+
+  .wazzap {
+    
+     font-family: "Bebas Neue";
+    font-size: 70px;
+    display: block;
+    align-items: center;
+    margin-left: 18%;
+   height: 5px;
+   margin-top: 25%;
+  }
+
+  .portfoliobutton {
+    background-color: #DE5A6C;
+    display: flex;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    margin-top: 2%;
+    justify-content: center;
+    width: 20%;
+    margin-left: 42%
+  }
+
+  .footer {
+    background-color: black;
+    height: 10%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
     flex-direction: row;
    
+  }
+
+ .images {
+  display: flex;
+  justify-content: left;
+
+ }
+
+  .insta {
+    height:40px;
+    width: 100px;
+    display: flex;
+    justify-content: left;
+    margin: 1%;
+    display: flex;
+
+  }
+
+
+  .artstation {
+    display: flex;
+    height: 40px;
+    width: 100px;
+
+  }
+
+  .tumblr {
+    display: flex;
+    height: 40px;
+    width: 100px;
+  }
+
+  .gmail {
+    font-family: "Bebas Neue";
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+    color: white;
+    
   }
  
  /*# sourceMappingURL=index.css.map */
