@@ -33,29 +33,34 @@ body {
     }
 
     .profilepic {
-        width: 80%;
+        width: 100%;
         margin: 25px;
 
     }
 
     .textsection{
         height: 50px;
-        width: 70vw
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw
     }
 
     .main {
         display: flex;
-        margin: 5px;
+        
     }
   
     .wazzap {
         font-family: "Bebas Neue";
-      font-size: 50px;
+       font-size: 50px;
+       height: 0px;
     }
 
 .iam {
     font-family: "Bebas Neue";
-      font-size: 50px;
+      font-size: 40px;
+      height: 5px;
 }
      
 .intro {
@@ -63,64 +68,74 @@ body {
     font-family: 'Bellota', cursive;
 }
 
-.footfoot {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+.footer {
+  background-color: black;
+  height: 10%;
+  width: 100vw;
+  margin-top: 2%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+
 }
+
+.example {
+  display: flex;
+  justify-content: right;
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.illyana {
+  height: 20%;
+  display: flex;
+ justify-content: right;
+
   
-  
-    .footer {
-      background-color: black;
-      height: 15%;
-      margin-top: 2%;
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-     
-    }
-  
-   .images {
-    display: flex;
-    justify-content: left;
-    margin-bottom: 5px;
-  
-   }
-  
-    .insta {
-      height:40px;
-      width: 100px;
-      display: flex;
-      justify-content: left;
-      margin: 1%;
-      display: flex;
-  
-    }
-  
-  
-    .artstation {
-      display: flex;
-      height: 40px;
-      width: 100px;
-  
-    }
-  
-    .tumblr {
-      display: flex;
-      height: 40px;
-      width: 100px;
-    }
-  
-    .gmail {
-      font-family: "Bebas Neue";
-      font-size: large;
-      display: flex;
-      justify-content: center;
-      margin-right: 2%;
-      color: white;
-      
-    }
-   
+}
+
+
+.insta {
+  height:40px;
+  width: 100px;
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+
+.artstation {
+  display: flex;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  margin-top: 20px;
+
+}
+
+.tumblr {
+  display: flex;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.gmail {
+  font-family: "Bebas Neue";
+  font-size: 45px;
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-top: 20px;
+  margin-left: 55%;
+
+}
+
    /*# sourceMappingURL=index.css.map */
    
    
