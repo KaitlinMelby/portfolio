@@ -36,7 +36,7 @@ body {
     .gallery {
        display: flex;
        flex-wrap: wrap;
-       
+
        
     }
 
@@ -49,16 +49,6 @@ body {
 
 
 
-    .footer {
-        background-color: black;
-        height: 10%;
-        width: 100vw;
-        margin-top: 2%;
-        display: flex;
-        position: sticky;
-        bottom: 0;
-      
-      }
       
       .example {
         display: flex;
@@ -76,46 +66,57 @@ body {
         
       }
       
+      .footer {
+        background-color: black;
+        height: 10%;
+        width: 100vw;
+        margin-top: 2%;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+    
+      }
+    
       
+    
       .insta {
-        height:40px;
-        width: 100px;
+        width: 20%;
         display: flex;
         justify-content: left;
         margin: 10px;
         display: flex;
         margin-top: 20px;
-      
+    
       }
-      
-      
+    
+    
       .artstation {
         display: flex;
-        height: 40px;
-        width: 100px;
+        width: 20%;
         margin: 10px;
         margin-top: 20px;
-      
+    
       }
-      
+    
       .tumblr {
         display: flex;
-        height: 40px;
-        width: 100px;
+        width: 9%;
         margin: 10px;
         margin-top: 20px;
       }
-      
+    
       .gmail {
         font-family: "Bebas Neue";
-        font-size: 45px;
+        font-size: 3vw;
         display: flex;
         justify-content: right;
         color: white;
         margin-top: 20px;
-        margin-left: 55%;
-      
+       text-align: right;
+       margin-left: 10vw;
+    
       }
+
       
          /*# sourceMappingURL=index.css.map */
          
