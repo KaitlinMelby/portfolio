@@ -1,0 +1,128 @@
+body {
+    overflow: hidden;
+  }
+   
+   
+   .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40vw;
+    margin-left: .9vw;
+   }
+   
+   
+   .container {
+    display: flex;
+    justify-content: space-between;
+    width: 99vw
+   }
+   
+   
+   .links {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bebas Neue";
+    font-size: larger;
+    width: 100vw;
+    margin-top: .9vw
+    }
+  
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .profilepic {
+        width: 80%;
+        margin: 25px;
+
+    }
+
+    .textsection{
+        height: 50px;
+        width: 70vw
+    }
+
+    .main {
+        display: flex;
+        margin: 5px;
+    }
+  
+    .wazzap {
+        font-family: "Bebas Neue";
+      font-size: 50px;
+    }
+
+.iam {
+    font-family: "Bebas Neue";
+      font-size: 50px;
+}
+     
+.intro {
+    width: 50%;
+    font-family: 'Bellota', cursive;
+}
+
+.footfoot {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+  
+  
+    .footer {
+      background-color: black;
+      height: 15%;
+      margin-top: 2%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+     
+    }
+  
+   .images {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+  
+   }
+  
+    .insta {
+      height:40px;
+      width: 100px;
+      display: flex;
+      justify-content: left;
+      margin: 1%;
+      display: flex;
+  
+    }
+  
+  
+    .artstation {
+      display: flex;
+      height: 40px;
+      width: 100px;
+  
+    }
+  
+    .tumblr {
+      display: flex;
+      height: 40px;
+      width: 100px;
+    }
+  
+    .gmail {
+      font-family: "Bebas Neue";
+      font-size: large;
+      display: flex;
+      justify-content: center;
+      margin-right: 2%;
+      color: white;
+      
+    }
+   
+   /*# sourceMappingURL=index.css.map */
+   
+   
+   
+   
