@@ -74,7 +74,7 @@ body {
   width: 100vw;
   margin-top: 2%;
   display: flex;
-  position: absolute;
+  position: sticky;
   bottom: 0;
 
 }
