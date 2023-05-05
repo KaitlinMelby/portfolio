@@ -34,51 +34,58 @@ body {
     text-decoration: none;
     margin: 10px;
   }
- 
 
-    .profilepic {
-        width: 20vw;
-        margin: 25px;
+  .profilepic {
+      width: 100%;
+      margin: 25px;
 
-    }
+  }
 
-    .textsection{
-        height: 50px;
-        width: 80vw;
-        display: flex;
-        flex-direction: column;
-        margin-left: 10vw
-    }
+  .textsection{
+      height: 50px;
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      margin-left: 10vw
+  }
 
-    .main {
-        display: flex;
-        
-    }
-  
-    .wazzap {
-        font-family: "Bebas Neue";
-       font-size: 50px;
-       height: 0px;
-    }
+  .main {
+      display: flex;
+      
+  }
+
+  .wazzap {
+      font-family: "Bebas Neue";
+     font-size: 50px;
+     height: 0px;
+  }
 
 .iam {
-    font-family: "Bebas Neue";
-      font-size: 40px;
-      height: 5px;
+  font-family: "Bebas Neue";
+    font-size: 40px;
+    height: 5px;
 }
-     
-.illyana {
-  width: 50%;
-  display: flex;
-  justify-content: right;
-  margin-top: 50px
- 
-}
-
-
+   
 .intro {
-    width: 90%;
-    font-family: 'Bellota', cursive;
+  width: 50%;
+  font-family: 'Bellota', cursive;
+}
+
+
+.example {
+display: flex;
+justify-content: right;
+width: 50px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.illyana {
+height: 20%;
+display: flex;
+justify-content: right;
+
+
 }
 
 .footer {
@@ -138,15 +145,4 @@ body {
 
 
 
-
-@media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-}
-
-   /*# sourceMappingURL=index.css.map */
-   
-   
-   
-   
+ 
